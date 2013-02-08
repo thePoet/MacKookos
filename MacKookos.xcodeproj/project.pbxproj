@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32732F531602752700CA7157 /* rocket_burn.png in Resources */ = {isa = PBXBuildFile; fileRef = 32732F511602752700CA7157 /* rocket_burn.png */; };
+		32732F541602752700CA7157 /* rocket.png in Resources */ = {isa = PBXBuildFile; fileRef = 32732F521602752700CA7157 /* rocket.png */; };
+		32732F5C1604E65F00CA7157 /* MovableObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 32732F5B1604E65F00CA7157 /* MovableObject.m */; };
+		328672401608BCA2006E008B /* red_rocket_burn.png in Resources */ = {isa = PBXBuildFile; fileRef = 3286723E1608BCA2006E008B /* red_rocket_burn.png */; };
+		328672411608BCA2006E008B /* red_rocket.png in Resources */ = {isa = PBXBuildFile; fileRef = 3286723F1608BCA2006E008B /* red_rocket.png */; };
+		32C035071602578B00E4C838 /* Ship.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C035061602578B00E4C838 /* Ship.m */; };
 		32DDC07F15F0D2B600C59C39 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32DDC07E15F0D2B600C59C39 /* QuartzCore.framework */; };
 		32DDC08115F0D2B600C59C39 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32DDC08015F0D2B600C59C39 /* OpenGL.framework */; };
 		32DDC08315F0D2B600C59C39 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32DDC08215F0D2B600C59C39 /* OpenAL.framework */; };
@@ -123,9 +129,18 @@
 		32DDC1FB15F0D2BB00C59C39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DDC1FA15F0D2BB00C59C39 /* main.m */; };
 		32DDC1FE15F0D2BB00C59C39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DDC1FD15F0D2BB00C59C39 /* AppDelegate.m */; };
 		32DDC20115F0D2BB00C59C39 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DDC20015F0D2BB00C59C39 /* HelloWorldLayer.m */; };
+		32FD513E15F3DC8B00A1A60F /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32FD513D15F3DC8B00A1A60F /* x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		32732F511602752700CA7157 /* rocket_burn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rocket_burn.png; sourceTree = "<group>"; };
+		32732F521602752700CA7157 /* rocket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rocket.png; sourceTree = "<group>"; };
+		32732F5A1604E65F00CA7157 /* MovableObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovableObject.h; sourceTree = "<group>"; };
+		32732F5B1604E65F00CA7157 /* MovableObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovableObject.m; sourceTree = "<group>"; };
+		3286723E1608BCA2006E008B /* red_rocket_burn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_rocket_burn.png; sourceTree = "<group>"; };
+		3286723F1608BCA2006E008B /* red_rocket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_rocket.png; sourceTree = "<group>"; };
+		32C035051602578B00E4C838 /* Ship.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ship.h; sourceTree = "<group>"; };
+		32C035061602578B00E4C838 /* Ship.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ship.m; sourceTree = "<group>"; };
 		32DDC07A15F0D2B600C59C39 /* MacKookos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacKookos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32DDC07E15F0D2B600C59C39 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		32DDC08015F0D2B600C59C39 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
@@ -379,6 +394,7 @@
 		32DDC1FD15F0D2BB00C59C39 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		32DDC1FF15F0D2BB00C59C39 /* HelloWorldLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
 		32DDC20015F0D2BB00C59C39 /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
+		32FD513D15F3DC8B00A1A60F /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -435,6 +451,10 @@
 				32DDC1FD15F0D2BB00C59C39 /* AppDelegate.m */,
 				32DDC1FF15F0D2BB00C59C39 /* HelloWorldLayer.h */,
 				32DDC20015F0D2BB00C59C39 /* HelloWorldLayer.m */,
+				32732F5A1604E65F00CA7157 /* MovableObject.h */,
+				32732F5B1604E65F00CA7157 /* MovableObject.m */,
+				32C035051602578B00E4C838 /* Ship.h */,
+				32C035061602578B00E4C838 /* Ship.m */,
 				32DDC08B15F0D2B600C59C39 /* Resources */,
 				32DDC09815F0D2B600C59C39 /* libs */,
 				32DDC1F815F0D2BB00C59C39 /* Supporting Files */,
@@ -445,6 +465,11 @@
 		32DDC08B15F0D2B600C59C39 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				3286723E1608BCA2006E008B /* red_rocket_burn.png */,
+				3286723F1608BCA2006E008B /* red_rocket.png */,
+				32732F511602752700CA7157 /* rocket_burn.png */,
+				32732F521602752700CA7157 /* rocket.png */,
+				32FD513D15F3DC8B00A1A60F /* x.png */,
 				32DDC09315F0D2B600C59C39 /* fps_images.png */,
 				32DDC09515F0D2B600C59C39 /* icon.icns */,
 				32DDC09715F0D2B600C59C39 /* Info.plist */,
@@ -873,6 +898,11 @@
 				32DDC09415F0D2B600C59C39 /* fps_images.png in Resources */,
 				32DDC09615F0D2B600C59C39 /* icon.icns in Resources */,
 				32DDC1DC15F0D2BB00C59C39 /* ChangeLog in Resources */,
+				32FD513E15F3DC8B00A1A60F /* x.png in Resources */,
+				32732F531602752700CA7157 /* rocket_burn.png in Resources */,
+				32732F541602752700CA7157 /* rocket.png in Resources */,
+				328672401608BCA2006E008B /* red_rocket_burn.png in Resources */,
+				328672411608BCA2006E008B /* red_rocket.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -988,6 +1018,8 @@
 				32DDC1FB15F0D2BB00C59C39 /* main.m in Sources */,
 				32DDC1FE15F0D2BB00C59C39 /* AppDelegate.m in Sources */,
 				32DDC20115F0D2BB00C59C39 /* HelloWorldLayer.m in Sources */,
+				32C035071602578B00E4C838 /* Ship.m in Sources */,
+				32732F5C1604E65F00CA7157 /* MovableObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1111,6 +1143,7 @@
 				32DDC20615F0D2BB00C59C39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
